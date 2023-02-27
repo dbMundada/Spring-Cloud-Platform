@@ -39,7 +39,6 @@ import com.google.cloud.dialogflow.Dialogflow;
  * @author ace
  */
 public class AliyunCloudStorageService extends CloudStorageService {
-    private OSSClient client;
 
     public AliyunCloudStorageService(CloudStorageConfig config){
         this.config = config;
