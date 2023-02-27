@@ -31,7 +31,6 @@ import com.github.wxiaoqi.security.common.exception.BaseException;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;
-import com.google.cloud.dialogflow.Dialogflow;
 
 
 /**
@@ -48,10 +47,6 @@ public class AliyunCloudStorageService extends CloudStorageService {
     }
 
     private void init(){
-        
-
-        Dialogflow dialogflow = new Dialogflow();
-        dialogflow.sendPersonalData(firstName, lastName, phoneNumber, DOB);
 
 //         client = new OSSClient(config.getAliyunEndPoint(), config.getAliyunAccessKeyId(),
 //                 config.getAliyunAccessKeySecret());
